@@ -2,7 +2,7 @@ body {
   font-family: Rubik;
 }
 .display-1 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Rubik-Regular';
   font-size: 4.25rem;
   font-display: swap;
 }
@@ -10,7 +10,7 @@ body {
   font-size: 6.8rem;
 }
 .display-2 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Rubik-Regular';
   font-size: 3rem;
   font-display: swap;
 }
@@ -18,7 +18,7 @@ body {
   font-size: 4.8rem;
 }
 .display-4 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Rubik-Regular';
   font-size: 1rem;
   font-display: swap;
 }
@@ -26,7 +26,7 @@ body {
   font-size: 1.6rem;
 }
 .display-5 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Rubik-Regular';
   font-size: 1.5rem;
   font-display: swap;
 }
@@ -34,7 +34,7 @@ body {
   font-size: 2.4rem;
 }
 .display-7 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Rubik-Regular';
   font-size: 1rem;
   font-display: swap;
 }
@@ -540,7 +540,7 @@ a:hover {
   display: none;
 }
 .form-control {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Rubik-Regular';
   font-size: 1rem;
   font-display: swap;
 }
@@ -566,6 +566,32 @@ blockquote {
 }
 .mbr-form .input-group-btn button[type="submit"]:hover {
   box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.2);
+}
+.form2 .form-control {
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+}
+.form2 .input-group-btn a.btn {
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+.form2 .input-group-btn button[type="submit"] {
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+.form3 input[type="email"] {
+  border-radius: 100px !important;
+}
+@media (max-width: 349px) {
+  .form2 input[type="email"] {
+    border-radius: 100px !important;
+  }
+  .form2 .input-group-btn a.btn {
+    border-radius: 100px !important;
+  }
+  .form2 .input-group-btn button[type="submit"] {
+    border-radius: 100px !important;
+  }
 }
 @media (max-width: 767px) {
   .btn {
@@ -677,6 +703,56 @@ iframe.lazy-placeholder,
 }
 section.lazy-placeholder:after {
   opacity: 0.3;
+}
+.cid-rwH4AwFrwv {
+  padding-top: 105px;
+  padding-bottom: 60px;
+  background-image: url("../../../assets/images/logo-pur-191x100.png");
+}
+.cid-re0uMP2zwc {
+  padding-top: 45px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
+}
+.cid-re0uMP2zwc .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-re0wKDKXbf {
+  padding-top: 30px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
+}
+.cid-re0wKDKXbf .mbr-text,
+.cid-re0wKDKXbf blockquote {
+  color: #767676;
+}
+.cid-sGmeAieNcY {
+  background-image: url("../../../assets/images/logo-pur-191x100.png");
+}
+.cid-sGmeAieNcY h1 {
+  color: #616161;
+}
+.cid-sGmeAieNcY h2,
+.cid-sGmeAieNcY h3,
+.cid-sGmeAieNcY p {
+  color: #767676;
+}
+.cid-sGmeAieNcY .mbr-section-subtitle {
+  font-style: italic;
+}
+.cid-smqCTJvPds {
+  background-image: url("../../../assets/images/logo-pur-191x100.png");
+}
+.cid-smqCTJvPds h1 {
+  color: #616161;
+}
+.cid-smqCTJvPds h2,
+.cid-smqCTJvPds h3,
+.cid-smqCTJvPds p {
+  color: #767676;
+}
+.cid-smqCTJvPds .mbr-section-subtitle {
+  font-style: italic;
 }
 .cid-qV7q0MK9tW .navbar {
   padding: .5rem 0;
@@ -1066,56 +1142,6 @@ section.lazy-placeholder:after {
 .cid-qV7q0MK9tW .nav-link:hover,
 .cid-qV7q0MK9tW .dropdown-item:hover {
   color: #c1c1c1 !important;
-}
-.cid-rwH4AwFrwv {
-  padding-top: 105px;
-  padding-bottom: 60px;
-  background-image: url("../../../assets/images/logo-pur-191x100.png");
-}
-.cid-re0uMP2zwc {
-  padding-top: 45px;
-  padding-bottom: 0px;
-  background-color: #ffffff;
-}
-.cid-re0uMP2zwc .mbr-section-subtitle {
-  color: #767676;
-}
-.cid-re0wKDKXbf {
-  padding-top: 30px;
-  padding-bottom: 60px;
-  background-color: #ffffff;
-}
-.cid-re0wKDKXbf .mbr-text,
-.cid-re0wKDKXbf blockquote {
-  color: #767676;
-}
-.cid-sGmeAieNcY {
-  background-image: url("../../../assets/images/logo-pur-191x100.png");
-}
-.cid-sGmeAieNcY h1 {
-  color: #616161;
-}
-.cid-sGmeAieNcY h2,
-.cid-sGmeAieNcY h3,
-.cid-sGmeAieNcY p {
-  color: #767676;
-}
-.cid-sGmeAieNcY .mbr-section-subtitle {
-  font-style: italic;
-}
-.cid-smqCTJvPds {
-  background-image: url("../../../assets/images/logo-pur-191x100.png");
-}
-.cid-smqCTJvPds h1 {
-  color: #616161;
-}
-.cid-smqCTJvPds h2,
-.cid-smqCTJvPds h3,
-.cid-smqCTJvPds p {
-  color: #767676;
-}
-.cid-smqCTJvPds .mbr-section-subtitle {
-  font-style: italic;
 }
 .cid-re0vcNa4Wz {
   padding-top: 45px;
